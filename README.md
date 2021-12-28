@@ -1,16 +1,12 @@
 # Java Features
 
-| Version |                      Link                       |
-|---------|:-----------------------------------------------:|
-| JDK8    | https://openjdk.java.net/projects/jdk8/features |
-
-## Since Java 8
-
-| Description                                                                            |                                                               Example                                                                |
-|----------------------------------------------------------------------------------------|:------------------------------------------------------------------------------------------------------------------------------------:|
-| Stream API                                                                             |                            [StreamAPITest.java](src/test/java/com/danza/java/features/StreamAPITest.java)                            |
-| [JEP 126: Lambda Expressions and method references](https://openjdk.java.net/jeps/126) | [LambdaExpressionsAndMethodReferencesTest.java](src/test/java/com/danza/java/features/LambdaExpressionsAndMethodReferencesTest.java) |
-| [JEP 150: Date & Time API](https://openjdk.java.net/jeps/150)                          |                       [DateAndTimeAPITest.java](src/test/java/com/danza/java/features/DateAndTimeAPITest.java)                       |
-| Optional                                                                               |                             [OptionalTest.java](src/test/java/com/danza/java/features/OptionalTest.java)                             |
-| @FunctionalInterface                                                                   |                  [FunctionalInterfaceTest.java](src/test/java/com/danza/java/features/FunctionalInterfaceTest.java)                  |
-| Interface default and static methods                                                   |     [InterfaceDefaultAndStaticMethodsTest.java](src/test/java/com/danza/java/features/InterfaceDefaultAndStaticMethodsTest.java)     |
+| Since Java Version | Description                                                                            |                                                               Example                                                                |
+|--------------------|----------------------------------------------------------------------------------------|:------------------------------------------------------------------------------------------------------------------------------------:|
+| 8                  | Stream API                                                                             |                            [StreamAPITest.java](src/test/java/com/danza/java/features/StreamAPITest.java)                            |
+| 8                  | [JEP 126: Lambda Expressions and method references](https://openjdk.java.net/jeps/126) | [LambdaExpressionsAndMethodReferencesTest.java](src/test/java/com/danza/java/features/LambdaExpressionsAndMethodReferencesTest.java) |
+| 8                  | [JEP 150: Date & Time API](https://openjdk.java.net/jeps/150)                          |                       [DateAndTimeAPITest.java](src/test/java/com/danza/java/features/DateAndTimeAPITest.java)                       |
+| 8                  | Optional                                                                               |                             [OptionalTest.java](src/test/java/com/danza/java/features/OptionalTest.java)                             |
+| 8                  | @FunctionalInterface                                                                   |                  [FunctionalInterfaceTest.java](src/test/java/com/danza/java/features/FunctionalInterfaceTest.java)                  |
+| 8                  | Interface default and static methods                                                   |     [InterfaceDefaultAndStaticMethodsTest.java](src/test/java/com/danza/java/features/InterfaceDefaultAndStaticMethodsTest.java)     |
+| 9                  | Interface private methods (JEP 213)                                                    |              [InterfacePrivateMethodsTest.java](src/test/java/com/danza/java/features/InterfacePrivateMethodsTest.java)              |
+| 9                  | Modules                                                                                |                                                                 TODO                                                                 |
