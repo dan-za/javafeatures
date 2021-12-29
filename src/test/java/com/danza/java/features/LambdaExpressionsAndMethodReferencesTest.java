@@ -1,5 +1,6 @@
 package com.danza.java.features;
 
+import org.jetbrains.annotations.NotNull;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
 
@@ -7,6 +8,8 @@ import java.util.Arrays;
 import java.util.List;
 import java.util.Optional;
 import java.util.function.Predicate;
+import java.util.stream.Collectors;
+import java.util.stream.Stream;
 
 public class LambdaExpressionsAndMethodReferencesTest {
 
@@ -32,5 +35,14 @@ public class LambdaExpressionsAndMethodReferencesTest {
 
     String getNeatString(int value) {
         return "Value=" + value;
+    }
+
+    /**
+     * @since Java11
+     */
+    @Test
+    void varAsLambdaParameter() {
+        var result = Stream.of("HELLO", "WORLD").map((@NotNull var c) -> c.toLowerCase()).collect(Collectors.joining());
+        Assertions.assertEquals("helloworld", result);
     }
 }
